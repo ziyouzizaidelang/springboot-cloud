@@ -1,4 +1,4 @@
-package com.entity;
+package com.shop.pojo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;

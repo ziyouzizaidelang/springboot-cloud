@@ -1,7 +1,8 @@
-package com.mapper;
+package com.shop.mapper;
+
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.entity.ZzCondition;
+import com.shop.pojo.ZzCondition;
 
 /**
  * @author zhanglele

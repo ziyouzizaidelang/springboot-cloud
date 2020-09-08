@@ -1,8 +1,8 @@
-package com.mapper;
+package com.shop.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.entity.User;
+import com.shop.pojo.User;
 
 /**
  * <p>

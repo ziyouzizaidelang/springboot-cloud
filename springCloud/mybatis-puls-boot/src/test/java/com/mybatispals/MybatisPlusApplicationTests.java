@@ -6,10 +6,10 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.entity.User;
-import com.entity.ZzCondition;
-import com.mapper.UserMapper;
-import com.mapper.ZzConditionMapper;
+import com.shop.mapper.UserMapper;
+import com.shop.mapper.ZzConditionMapper;
+import com.shop.pojo.User;
+import com.shop.pojo.ZzCondition;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -41,7 +41,7 @@ public class MybatisPlusApplicationTests {
         Assert.assertEquals(35, userList.size());
         userList.forEach(System.out::println);
     }
-    
+
     @Test
     public void aInsert() {
         User user = new User();
@@ -182,6 +182,7 @@ public class MybatisPlusApplicationTests {
             for (Map<String, Object> mp : maplist) {
                 System.out.println(mp);
             }
+            System.out.println("-------");
             /**
              * lambdaQueryWrapper groupBy orderBy
              */
